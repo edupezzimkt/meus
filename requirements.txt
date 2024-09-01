@@ -2,3 +2,6 @@ openai==1.28.0
 python-dotenv==1.0.1
 speechrecognition==3.10.1
 playsound==1.2.2
+PyAudio==0.2.14
+SpeechRecognition==3.10.1
+streamlit==1.36.0
