@@ -29,7 +29,7 @@ def gerar_resposta_llama(mensagens, instrucao, model='mistral-nemo', cache={}):
 if __name__ == '__main__':
     # Defina o prompt inicial
     instrucao = (
-        "Você é um assistente virtual divertido e bem humorado que vai responder a perguntas gerais."
+        "Você é um assistente divertido e conta piada que vai responder a perguntas gerais."
     )
     
     print('Bem-vindo ao chat! :)')

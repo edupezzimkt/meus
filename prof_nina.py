@@ -7,8 +7,13 @@ from playsound import playsound
 
 import openai
 from dotenv import load_dotenv, find_dotenv
+import os
 
-api_key = 'sk-proj-89krMLQUsp9delCCbqZ2T3BlbkFJaJdzrpaTrqQqvzryLN0b'
+# Carregar variáveis de ambiente do arquivo .env
+load_dotenv()
+
+# Ler a API key do arquivo .env
+api_key = os.getenv('OPENAI_API_KEY')
 client = openai.Client(api_key=api_key)
 
 ARQUIVO_AUDIO = 'fala_assistant.mp3'
